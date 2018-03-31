@@ -22,12 +22,12 @@ public class SaldoEstoqueBusiness {
         return service.pesquisar(filterField, filterData, order);
     }
 
-    public void criar(SaldoEstoque saldoEstoque) {
-        service.gravar(saldoEstoque);
+    public void criar(SaldoEstoque saldo) {
+        service.gravar(saldo);
     }
 
-    public void atualizar(SaldoEstoque saldoEstoque) {
-        service.atualizar(saldoEstoque);
+    public void atualizar(SaldoEstoque saldo) {
+        service.atualizar(saldo);
     }
 
     public void excluir(Long id) {
